@@ -1,0 +1,26 @@
+{"dopes" : [{
+  "strain": "Blue Dream",
+  "thc": "24.15%",
+  "type": "Sativa",
+  "city": "Vancouver",
+  "type": "Bud",
+  "text": "Blue dream is just wonderful. It really is a dream.",
+  "photo":"http://bigbudsmag.com/wp-content/uploads/0000002595-bbm1028_6.jpg"
+}, {
+  "strain": "Mango Maui Wowie",
+  "thc": "26.15%",
+  "type": "Sativa",
+  "city": "Vancouver",
+  "type": "Bud",
+  "text": "Crispy high with mind and body effects and a smooth taste",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/a3/0e/46/a30e46ce10bc7e576fa991e8c65c25c5.jpg"
+}, {
+  "strain": "Violator Kush",
+  "thc": "19.15%",
+  "type": "Indica",
+  "city": "Denver",
+  "type": "Bud",
+  "text": "Sweet dreams.",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/32/f5/ac/32f5acd84c2a64f8720f91377963e0cb.jpg"
+}]
+}

@@ -1,0 +1,7 @@
+<!-- {{outlet}} -->
+{{model.length}}
+<ul>
+  {{#each model as |post|}}
+    <li>{{post.strain}} - {{post.thc}} - {{post.type}} <br> {{post.text}}</li>
+  {{/each}}
+</ul>

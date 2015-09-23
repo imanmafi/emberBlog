@@ -1,7 +1,6 @@
 <!-- {{outlet}} -->
-{{model.length}}
 <ul>
   {{#each model as |post|}}
-    <li>{{post.strain}} - {{post.thc}} - {{post.type}} <br> {{post.text}}</li>
+    <li>{{post.strain}} - {{post.thc}} - {{post.type}} <br> {{post.text}} <br> <img src="{{post.photo}}" width="400px" height="400px"></li>
   {{/each}}
 </ul>

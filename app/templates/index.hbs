@@ -1,6 +1,18 @@
 <!-- {{outlet}} -->
 <ul>
   {{#each model as |post|}}
-    <li>{{post.strain}} - {{post.thc}} - {{post.type}} <br> {{post.text}} <br> <img src="{{post.photo}}" width="400px" height="400px"></li>
+    {{post-tile post=post delete="delete"}}
   {{/each}}
+
+  <!-- {{post-tile post=post update=update delete=delete}} -->
 </ul>
+
+
+ {{new-post}}
+
+
+
+<!-- added in 3:30pm 9-23-15 -->
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+<!-- added in 3:30pm 9-23-15 -->

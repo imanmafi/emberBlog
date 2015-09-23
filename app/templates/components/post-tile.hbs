@@ -1,0 +1,23 @@
+<li>{{post.city}}'s {{post.strain}} strain
+    {{#if isImageShowing }}
+       <p><img src={{post.photo}} alt={{post.thc}} {{action 'imageHide'}}></p>
+     {{else}}
+       <button {{action 'imageShow'}}>Show image</button>
+
+    {{/if}}
+    <button {{action 'delete' post}}>Delete</button>
+    {{post.text}}
+</li>
+
+
+
+
+<!--
+<li>{{rental.owner}}'s {{rental.type}} in {{rental.city}}
+  {{#if isImageShowing}}
+    <p><img src={{rental.image}} alt={{rental.type}} {{action 'imageHide'}}></p>
+  {{else}}
+    <button {{action 'imageShow'}}>Image</button>
+  {{/if}}
+  <button {{action 'delete' rental}}>Delete</button>
+</li> -->

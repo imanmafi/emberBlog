@@ -8,15 +8,14 @@ export default Ember.Route.extend({
 
   actions: {
 
-    destroyPost(post) {
-      post.destroyRecord();
+    delete(dope) {
+      dope.destroyRecord();
       this.transitionTo('index');
     },
 
     save(params) {
-     debugger;
-     var newPost = this.store.createRecord('dope', params);
-     newPost.save();
+     var newDope = this.store.createRecord('dope', params);
+     newDope.save();
      this.transitionTo('index');
    },
   }

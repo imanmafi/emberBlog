@@ -1,12 +1,12 @@
-<li>{{post.city}}'s {{post.strain}} strain
+<li>{{dope.city}}'s {{dope.strain}} strain
     {{#if isImageShowing }}
-       <p><img src={{post.photo}} alt={{post.thc}} {{action 'imageHide'}}></p>
+       <p><img src={{dope.photo}} alt={{dope.thc}} {{action 'imageHide'}}></p>
      {{else}}
        <button {{action 'imageShow'}}>Show image</button>
 
     {{/if}}
-    <button {{action 'delete' post}}>Delete</button>
-    {{post.text}}
+    <button {{action 'delete' dope}}>Delete</button>
+    {{dope.text}}
 </li>
 
 

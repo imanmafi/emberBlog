@@ -1,10 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  addNewPost: false,
+  addNewDope: false,
   actions: {
-    postFormShow(){
-      this.set('addNewPost', true);
+    dopeFormShow(){
+      this.set('addNewDope', true);
     },
 
     save(){
@@ -17,7 +17,7 @@ export default Ember.Component.extend({
         type: this.get('type')
 
       };
-      this.set('addNewPost', false),
+      this.set('addNewDope', false);
       this.sendAction('save', params);
     }
   }

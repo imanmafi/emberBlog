@@ -10,8 +10,8 @@ export default Ember.Component.extend({
     imageHide: function(){
       this.set('isImageShowing', false);
     },
-    delete: function() {
-      this.sendAction('destroyPost', post);
+    delete: function(dope) {
+      this.sendAction('delete', dope);
     }
   }
 });

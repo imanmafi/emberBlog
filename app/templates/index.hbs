@@ -1,7 +1,13 @@
 <!-- {{outlet}} -->
 <ul>
-  {{#each model as |dope|}}
-    {{dope-tile dope=dope delete="delete"}}
+  {{#each model.dopes as |dope|}}
+    {{dope-tile dope=dope update="update" delete="delete"}}
+      <ul>
+        {{#each model.comments as |comment|}}
+          {{comment-tile comment=comment addComment="addComment"}}
+        {{/each}}
+      </ul>
+
   {{/each}}
 
   <!-- {{post-tile post=post update=update delete=delete}} -->

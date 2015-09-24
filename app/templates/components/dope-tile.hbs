@@ -5,8 +5,10 @@
        <button {{action 'imageShow'}}>Show image</button>
 
     {{/if}}
+    {{update-dope dope=dope update="update"}}
     <button {{action 'delete' dope}}>Delete</button>
     {{dope.text}}
+    
 </li>
 
 

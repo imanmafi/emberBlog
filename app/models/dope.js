@@ -6,5 +6,6 @@ export default DS.Model.extend({
   strain: DS.attr(),
   text: DS.attr(),
   thc: DS.attr(),
-  type: DS.attr()
+  type: DS.attr(),
+  comments: DS.hasMany('comment', {async: true}),
 });

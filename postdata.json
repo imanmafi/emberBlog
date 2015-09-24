@@ -22,5 +22,9 @@
   "type": "Bud",
   "text": "Sweet dreams.",
   "photo":"https://s-media-cache-ak0.pinimg.com/736x/32/f5/ac/32f5acd84c2a64f8720f91377963e0cb.jpg"
-}]
+}],
+  "comments": [{
+    "author": "Snoop Dogg",
+    "content": "Fo Shizzle my dizzle"
+    }]
 }
